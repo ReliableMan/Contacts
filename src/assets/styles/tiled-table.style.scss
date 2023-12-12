@@ -1,0 +1,13 @@
+.copied-field {
+  cursor:pointer;
+  transition: all 0.7s;
+
+  &:hover {
+    background: rgb(232, 228, 228);
+  }
+}
+.tiled-view {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
