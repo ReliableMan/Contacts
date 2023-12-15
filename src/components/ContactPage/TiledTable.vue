@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import LogicTabularTiledTable from '@/mixins/LogicTabularTiledTable';
+import LogicTabularTiledTable from '../../mixins/LogicTabularTiledTable';
 
 export default {
   name: 'TiledTable',
