@@ -69,7 +69,7 @@ export default {
         },
       });
       setTimeout(() => {
-        this.$router.push('/contacts');
+        this.$router.push('/users');
       }, 1600);
     },
   },

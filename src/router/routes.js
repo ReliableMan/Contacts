@@ -6,7 +6,7 @@ export default new VueRouter({
   mode: 'history',
   routes: [
     {
-      path: '/main',
+      path: '/',
       component: MainPage,
     },
     {
@@ -14,7 +14,7 @@ export default new VueRouter({
       component: () => import('../pages/AuthPage.vue'),
     },
     {
-      path: '/contacts',
+      path: '/users',
       component: () => import('../pages/ContactPage.vue'),
     },
   ],
